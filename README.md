@@ -475,6 +475,14 @@ You can also write prompts yourself. Concise prompts are usually preferred, for 
 
 and so on.
 
+# Credits
+
+[ComfyUI-Zluda](https://github.com/patientx/ComfyUI-Zluda)
+
+[FramePack-ZLUDA](https://github.com/githubcto/FramePack-ZLUDA/tree/attention)
+
+[ComfyUI-Zluda](https://github.com/lllyasviel/FramePack)
+
 # Cite
 
     @article{zhang2025framepack,
