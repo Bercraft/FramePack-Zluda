@@ -6,12 +6,20 @@ os.environ['HF_HOME'] = os.path.abspath(os.path.realpath(os.path.join(os.path.di
 
 import gradio as gr
 import torch
+print(f"FramePack-F1")
+print(f"GPU: {torch.cuda.get_device_name()}")
+print(f"PyTorch: {torch.__version__}")
+import sys
+print(f"Python: {sys.version}")
 import traceback
 import einops
 import safetensors.torch as sf
 import numpy as np
 import argparse
 import math
+import asyncio
+asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+import zluda              
 
 from PIL import Image
 from diffusers import AutoencoderKLHunyuanVideo
